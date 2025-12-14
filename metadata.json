@@ -1,0 +1,5 @@
+{
+  "name": "Solar Swipe",
+  "description": "An immersive, gesture-driven tour of the Solar System featuring pseudo-3D celestial bodies and parallax starfields.",
+  "requestFramePermissions": []
+}
