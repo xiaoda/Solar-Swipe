@@ -18,3 +18,10 @@ View your app in AI Studio: https://ai.studio/apps/drive/17zzKYKCTBHDfM4ongoDixB
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to Vercel
+
+1. Add a new Vercel project pointing at this repo. Vercel will detect Vite automatically.
+2. Set the `GEMINI_API_KEY` environment variable in the Vercel project (match `.env.local`).
+3. Keep the defaults for build (`npm run build`) and output (`dist`). The included `vercel.json` encodes these.
+4. Deploy — the app is a static Vite build, so no extra server configuration is required.
