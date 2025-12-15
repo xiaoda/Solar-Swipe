@@ -12,7 +12,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '太阳系中心的恒星，为整个星系提供光和热。'
     },
     diameterRatio: 0.85,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/600px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg',
+    image: '/celestial-bodies/sun.jpg',
     colors: {
       shadow: '#F57F17',
       atmosphere: 'rgba(253, 184, 19, 0.6)',
@@ -30,7 +30,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '太阳系最小且最靠近太阳的行星。'
     },
     diameterRatio: 0.4,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/600px-Mercury_in_color_-_Prockter07_centered.jpg',
+    image: '/celestial-bodies/mercury.jpg',
     colors: {
       shadow: '#808080',
       atmosphere: 'rgba(165, 165, 165, 0.2)',
@@ -48,7 +48,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '自转方向与大多数行星相反，拥有极其浓厚的大气层。'
     },
     diameterRatio: 0.6,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Venus-real_color.jpg/600px-Venus-real_color.jpg',
+    image: '/celestial-bodies/venus.jpg',
     colors: {
       shadow: '#8B7355',
       atmosphere: 'rgba(227, 187, 118, 0.3)',
@@ -66,7 +66,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '我们的家园，目前已知宇宙中唯一孕育生命的星球。'
     },
     diameterRatio: 0.62,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/600px-The_Earth_seen_from_Apollo_17.jpg',
+    image: '/celestial-bodies/earth.jpg',
     colors: {
       shadow: '#0a1d36',
       atmosphere: 'rgba(64, 156, 255, 0.4)',
@@ -84,7 +84,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '寒冷干燥的沙漠世界，大气稀薄，表面布满氧化铁沙尘。'
     },
     diameterRatio: 0.5,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/600px-OSIRIS_Mars_true_color.jpg',
+    image: '/celestial-bodies/mars.jpg',
     colors: {
       shadow: '#8B3A28',
       atmosphere: 'rgba(226, 123, 88, 0.3)',
@@ -102,7 +102,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '气态巨行星，太阳系中体积最大的行星，拥有著名的大红斑。'
     },
     diameterRatio: 0.8,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/600px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg',
+    image: '/celestial-bodies/jupiter.jpg',
     colors: {
       shadow: '#5C3A16',
       atmosphere: 'rgba(200, 139, 58, 0.25)',
@@ -122,7 +122,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
     diameterRatio: 0.6,
     aspectRatio: 2.3,
     hasRings: true,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg',
+    image: '/celestial-bodies/saturn.jpg',
     colors: {
       shadow: '#8C7D64',
       atmosphere: 'rgba(234, 214, 184, 0.2)',
@@ -140,7 +140,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '以近90度倾角侧躺运行的冰巨星，呈现独特的青绿色。'
     },
     diameterRatio: 0.65,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/600px-Uranus2.jpg',
+    image: '/celestial-bodies/uranus.jpg',
     colors: {
       shadow: '#5F9EA0',
       atmosphere: 'rgba(209, 243, 245, 0.4)',
@@ -158,7 +158,7 @@ export const SOLAR_SYSTEM: CelestialData[] = [
       zh: '黑暗寒冷的冰巨星，表面伴有超音速风暴。'
     },
     diameterRatio: 0.64,
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/600px-Neptune_Full.jpg',
+    image: '/celestial-bodies/neptune.jpg',
     colors: {
       shadow: '#191970',
       atmosphere: 'rgba(75, 112, 221, 0.4)',
